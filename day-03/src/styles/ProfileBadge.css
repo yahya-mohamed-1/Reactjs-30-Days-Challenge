@@ -1,0 +1,40 @@
+.profile-badge {
+  width: 260px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 1.5rem;
+  font-family: Arial, sans-serif;
+  transition: transform 0.2s ease;
+}
+
+.profile-badge:hover {
+  transform: translateY(-5px);
+}
+
+.profile-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.profile-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.5rem 0 0.25rem;
+}
+
+.profile-title {
+  color: #666;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.profile-bio {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: #444;
+}
