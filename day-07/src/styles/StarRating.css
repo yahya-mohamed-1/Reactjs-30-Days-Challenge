@@ -1,0 +1,30 @@
+.star-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.star-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.star {
+  font-size: 2.5rem;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.star.filled {
+  color: #f5c518;
+}
+
+.rating-text {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  color: #333;
+}
