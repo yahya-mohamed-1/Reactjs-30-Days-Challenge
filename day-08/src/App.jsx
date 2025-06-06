@@ -1,5 +1,5 @@
 import React from 'react';
-import ClickCounter from '../components/ClickCounter';
+import ClickCounter from './components/ClickCounter';
 
 function App() {
   return (
