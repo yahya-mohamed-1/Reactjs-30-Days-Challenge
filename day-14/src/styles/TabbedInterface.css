@@ -1,0 +1,36 @@
+.tabbed-container {
+  font-family: sans-serif;
+  padding: 2rem;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+button.active {
+  background-color: #0077cc;
+  color: white;
+}
+
+.tab-content {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
